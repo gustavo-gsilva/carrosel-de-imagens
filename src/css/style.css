@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.carrosel {
+    display: flex;
+    position: relative;
+}
+
+.container .carrosel .carrosel-item-1,
+.container .carrosel .carrosel-item-2,
+.container .carrosel .carrosel-item-3,
+.container .carrosel .carrosel-item-4 {
+    max-width: 1536px;
+}
+
+#slide-azul {
+    max-width: 1536px;
+}
+
+.container .carrosel .informacoes,
+.container .carrosel .informacoes-2,
+.container .carrosel .informacoes-3,
+.container .carrosel .informacoes-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    width: 420px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    padding: 50px 40px 50px 40px;
+}
+
+.container .carrosel .informacoes {
+    top: 110px;
+    right: 5965px;
+}
+
+.container .carrosel .informacoes-2 {
+    top: 110px;
+    right: 4850px;
+}
+
+.container .carrosel .informacoes-3 {
+    top: 110px;
+    right: 3735px;
+}
+
+.container .carrosel .informacoes-4 {
+    top: 110px;
+    right: 2620px;
+}
+
+.container .carrosel .informacoes h1,
+.container .carrosel .informacoes-2 h1,
+.container .carrosel .informacoes-3 h1,
+.container .carrosel .informacoes-4 h1 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.container .carrosel .informacoes p,
+.container .carrosel .informacoes-2 p,
+.container .carrosel .informacoes-3 p,
+.container .carrosel .informacoes-4 p {
+    width: 370px;
+    height: 345px;
+    font-weight: 300;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.container .carrosel .informacoes a,
+.container .carrosel .informacoes-2 a,
+.container .carrosel .informacoes-3 a,
+.container .carrosel .informacoes-4 a {
+    width: 100px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container .carrosel a.botao-vermelho {
+    color: #C50000;
+}
+
+.container .carrosel a.botao-verde {
+    color: #D9DD10;
+}
+
+.container .carrosel a.botao-vermelho-escuro {
+    color: #A63A17;
+}
+
+.container .carrosel a.botao-azul {
+    color: #10ACDD;
+}
+
+.container .carrosel .setas {
+    position: relative;
+    position: fixed;
+}
+
+.container .carrosel .setas img {
+    width: 49px;
+    height: 70px;
+    margin-top: 330px;
+}
+
+.container .carrosel .setas .seta-direita {
+    margin-left: 1294px;
+}
+
+.container .carrosel .setas .seta-esquerda {
+    transform: scaleX(-1);
+    margin-left: 70px;
+}
+
+.cursor-esquerdo {
+    cursor: pointer;
+}
+
+.cursor-direito {
+    cursor: pointer;
+}
+
+.seta-opaca {
+    opacity: 0.5;
+}
